@@ -9,4 +9,25 @@ function inbutton() {
   var currentAnswer5 = document.one.quiz5.value;
   var currentAnswer6 = document.one.quiz6.value;
 
-var result=document.getElementById("display");
+  var result=document.getElementById("display");
+
+  if (currentAnswer1==Yes){score+=10};
+  if (currentAnswer2==Alphabet){score+=10};
+  if (currentAnswer3==True){score+=10};
+  if (currentAnswer4==Helloworld){score+=10};
+  if (currentAnswer5==Anintegerorafloating-pointnumber){score+=10};
+  if (currentAnswer6==True){score+=10};
+  quiz.style.display= "none";
+  
+  if (score==60) {
+    result.textconten="Your score is 100%. Congratulation! you passed!";
+  } else if (score==50) {
+    result.textconten="Your score is 83%. Congratulation! you passed!";
+  } else if (score==40) {
+    result.textconten="Your score is 66%. Congratulation! you passed fairly!";
+  } else if (score==30) {
+    result.textconten="Your score is 50%. Congratulation! you passed farlry!";
+  } else {
+    result.textconten="Your score is below average . Kindly retake the test!"
+  }
+}
