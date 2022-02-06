@@ -9,3 +9,4 @@ function inbutton() {
   var currentAnswer5 = document.one.quiz5.value;
   var currentAnswer6 = document.one.quiz6.value;
 
+var result=document.getElementById("display");
