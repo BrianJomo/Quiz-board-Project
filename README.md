@@ -17,6 +17,8 @@
 
 <p>This is a modern website for students where they can take a test and get immediate results. It contains a button  among other modern website features. It is   usable  on a desktop only .</p>
 
+Here is the web page design: https://www.figma.com/file/cRT1pqafwBW9fpAusb83aC/Untitled?node-id=0%3A1
+
 ## Installation
 
 To gain acess to this website click on this link: https://brianjomo.github.io/Quiz-board-Project/
