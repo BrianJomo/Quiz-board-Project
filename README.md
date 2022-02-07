@@ -37,7 +37,7 @@ To have access to this website you will have to click on this link: then you wi
 
 * CSS - which was used to style the web pages.
 
-* JavaScript - Which was used to make web pages interactive.
+* JavaScript - Which was used to make the web pages interactive with the client-side and server-side.
 
 ## Reference
 
