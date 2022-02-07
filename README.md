@@ -37,6 +37,8 @@ To have access to this website you will have to click on this link: then you wi
 
 * CSS - which was used to style the web pages.
 
+* JavaScript - Which was used to make web pages interactive.
+
 ## Reference
 
 * Materialize CSS
