@@ -31,7 +31,7 @@ To gain acess to this website click on this link:
 
 To have access to this website you will have to click on this link: then you will immediately be directed to the website and explore its features.
 
-[## Technology Used
+## Technology Used
 
 * HTML - which was used to build the structure of the web pages.
 
