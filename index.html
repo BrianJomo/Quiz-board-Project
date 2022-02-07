@@ -5,14 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
   <title>Quiz Board</title>
 </head>
 <body>
   <h1>Brain Buster</h1>
   <form name="one" id="quiz">
 
-     <div>
+    <div>
      <P>(1) Are you computer literate?</P>
      <p><input type="radio" name="quiz1" id="" value="Yes"> A) Yes </p>
      <p><input type="radio" name="quiz1" id="" value="No"> B) No </p>
@@ -61,10 +60,15 @@
       <p><input type="radio" name="quiz6" id="" value="None of the above"> B) None of the above</p>      
     </div>
 
-     <input type="button" value="submit" id="btn" onclick="inbutton()" > 
+    <input type="button" value="submit" id="btn" onclick="inButton()" > 
 
   </form>
-  <div id="display"></div>
+  <div id="display">
+    <p id="display-paragraph"></p>
+  </div>
   
+  <script src="index.js"></script>
 </body>
 </html>
+
+
