@@ -15,7 +15,7 @@
 
 ## Description
 
-<p>This is a modern website for students where they can take a test and get immediate results. It contains a button  among other modern website features. It is also  usable  on a desktop and a mobile phone .</p>
+<p>This is a modern website for students where they can take a test and get immediate results. It contains a button  among other modern website features. It is   usable  on a desktop only .</p>
 
 ## Installation
 
