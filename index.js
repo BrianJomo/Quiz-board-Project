@@ -1,4 +1,9 @@
-function inbutton() {
+// var form = document.getElementById("quiz");
+// form.addEventListener("submit", function(){
+  
+// })
+
+function inButton() {
   // code here
   //document.write("Time starts now!");
   var score = 0;
@@ -11,23 +16,28 @@ function inbutton() {
 
   var result=document.getElementById("display");
 
-  if (currentAnswer1==Yes){score+=10};
-  if (currentAnswer2==Alphabet){score+=10};
-  if (currentAnswer3==True){score+=10};
-  if (currentAnswer4==Helloworld){score+=10};
-  if (currentAnswer5==Anintegerorafloating-pointnumber){score+=10};
-  if (currentAnswer6==True){score+=10};
-  quiz.style.display= "none";
-  
+  if (currentAnswer1=='Yes'){score+=10};
+  if (currentAnswer2=='Alphabet'){score+=10};
+  if (currentAnswer3=='True'){score+=10};
+  if (currentAnswer4=='Helloworld'){score+=10};
+  if (currentAnswer5=='Anintegerorafloating-pointnumber'){score+=10};
+  if (currentAnswer6=='True'){score+=10};
+
+  one.style.display="none"
+  // alert(result.textContent)
+  result.textContent=score
+
+    
   if (score==60) {
-    result.textconten="Your score is 100%. Congratulation! you passed!";
+    result.textContent="Your score is 100%. Congratulation! you passed!";
   } else if (score==50) {
-    result.textconten="Your score is 83%. Congratulation! you passed!";
+    result.textContent="Your score is 83%. Congratulation! you passed!";
   } else if (score==40) {
-    result.textconten="Your score is 66%. Congratulation! you passed fairly!";
+    result.textContent="Your score is 66%. Congratulation! you passed fairly!";
   } else if (score==30) {
-    result.textconten="Your score is 50%. Congratulation! you passed farlry!";
+    result.textContent="Your score is 50%. Congratulation! you passed farlry!";
   } else {
-    result.textconten="Your score is below average . Kindly retake the test!"
+    result.textContent="Your score is below average . Kindly retake the test!"
   }
 }
+
