@@ -35,7 +35,7 @@ function inButton() {
   } else if (score==40) {
     result.textContent="Your score is 66%. Congratulation! you passed fairly!";
   } else if (score==30) {
-    result.textContent="Your score is 50%. Congratulation! you passed farlry!";
+    result.textContent="Your score is 50%. Congratulation! you passed fairy!";
   } else {
     result.textContent="Your score is below average . Kindly retake the test!"
   }
